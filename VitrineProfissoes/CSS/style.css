@@ -1,0 +1,103 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #eee;
+}
+
+header {
+    background: #234567;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: #152d45;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+main {
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    flex: 1 1 200px;
+    border-radius: 8px;
+}
+
+.card:hover {
+    background: #d9eafa;
+}
+
+form {
+    max-width: 400px;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+button {
+    background: #234567;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+footer {
+    background: #234567;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+    }
+}
+
+
+.img-card1 {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+.img-card2 {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+.img-card3 {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.img-card4 {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}

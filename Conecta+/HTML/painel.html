@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel - Conecta+</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Conecta+</h1>
+        <nav>
+            <a href="../HTML/index.html">Início</a>
+            <a href="../HTML/solicitacao.html">Nova Solicitação</a>
+            <a href="../HTML/painel.html">Painel</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Painel de Solicitações</h2>
+
+        <label for="filtroStatus">Filtrar por status:</label>
+        <select id="filtroStatus">
+            <option value="Todas">Todas</option>
+            <option value="Pendente">Pendente</option>
+            <option value="Em andamento">Em andamento</option>
+            <option value="Concluída">Concluída</option>
+        </select>
+
+        <div id="solicitacoes"></div>
+    </main>
+
+</body>
+</html>

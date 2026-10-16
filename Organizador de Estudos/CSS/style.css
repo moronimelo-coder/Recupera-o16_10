@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial;
+    background-color: #eee;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: blue;
+}
+
+input {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+li {
+    background-color: white;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 400px;
+    list-style: none;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: gray;
+}

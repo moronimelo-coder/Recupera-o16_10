@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Solicitação - Conecta+</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Conecta+</h1>
+        <nav>
+            <a href="../HTML/index.html">Início</a>
+            <a href="../HTML/solicitacao.html">Nova Solicitação</a>
+            <a href="../HTML/painel.html">Painel</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Nova Solicitação</h2>
+
+        <form id="formSolicitacao">
+            <label for="servico">Serviço:</label>
+            <select id="servico" required>
+                <option value="">Selecione um serviço</option>
+                <option value="Suporte técnico">Suporte técnico</option>
+                <option value="Instalação de programas">Instalação de programas</option>
+                <option value="Emissão de documentos">Emissão de documentos</option>
+                <option value="Manutenção de equipamentos">Manutenção de equipamentos</option>
+                <option value="Solicitação de documentos">Solicitação de documentos</option>
+            </select>
+
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" rows="5"
+                placeholder="Explique o que você precisa..."
+                required></textarea>
+
+            <button type="submit">Enviar solicitação</button>
+        </form>
+
+        <p id="mensagem"></p>
+    </main>
+
+</body>
+</html>
